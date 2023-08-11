@@ -28,7 +28,7 @@ Aplicaremos las habilidades blandas utilizando las herramientas organizacionales
 ## :hammer:Data Engineer
 **`ETL (Extract, Transform and Load)`**
 Se encuentra en el archivo **[Desarrollo del ETL](Desarrollo%20del%20ETL.ipynb)**
-1. Contamos con los datasets "movies" que contiene una serie de variables con diversas películas, así mismo, tenemos el dataset "credits" que contiene la ista del personal que participó por cada película.
+1. Contamos con los datasets "movies" que contiene una serie de variables con diversas películas, así mismo, tenemos el dataset "credits" que contiene la lista del personal que participó por cada película.
 
 2. Necesitamos realizar las siguientes tareas:
 
@@ -54,6 +54,8 @@ Se utilizó RENDER para realizar el deploy de nuestra API local, cpnsiguiendo el
 
 ## :mag:Data Analyst
 Se encuentra en el archivo **[Desarrollo del EDA](Desarrollo%20del%20EDA.ipynb)**
+
+**`EDA (Exploratory Data Analyst)`**
 1. Análisis de las tareas requeridas:
 * Se analizó el dataframe en su estructura, forma, información, valores nulos y demás.
 * Se realizó un histograma para obtener una visión general de distribución de las variables del dataframe.
@@ -62,12 +64,14 @@ Se encuentra en el archivo **[Desarrollo del EDA](Desarrollo%20del%20EDA.ipynb)*
 
 ## 📉📈:Data Science
 Se encuentra en el archivo **[Desarrollo del Modelo](Desarrollo%20del%20Modelo.ipynb)**
+
+**`Modelo de Recomendación`**
 1. Recomendaremos películas basándose en películas similares, por lo que se debe encontrar la similitud de puntuación entre esa película y el resto de películas.
 * Utilizamos las librerías sklearn CountVectorizer y NearestNeighbors para realizar el modelo de recomendaciones basado en K-neighbors.
 * K- neighbors funciona encontrando los "k" puntos de datos más cercanos en función de una medida de distancia, tomando una decisión basada en las etiquetas de clase o de los valores de los vecinos más cercanos.
 * Se realizó una función integrada al archivo main.py de la API para poder consultarle una película y nos proprocione las 5 recomendaciones de esta basándose en el Modelo aplicado.
 
 ## Conclusión
-El proyecto es muy completo para poner en prueba los conocimientos adquiridos, en este video tutorial podrán encontrar una explicación general del proyecto, cómo utilizar la aplicación y sus funcionalidades.
+El proyecto es muy completo para poner en prueba los conocimientos adquiridos, en este **[Video](https://youtu.be/aG4lZv6y1sw)** podrán encontrar una explicación general del proyecto, cómo utilizar la aplicación y sus funcionalidades.
 
 Espero les haya gustado el desarrollo de este proyecto, cualquier consulta pueder escribirme a **[LinkedIn](https://www.linkedin.com/in/alejandra-lizeth-salas-talavera/)**
